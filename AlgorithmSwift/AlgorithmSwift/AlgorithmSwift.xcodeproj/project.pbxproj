@@ -27,6 +27,7 @@
 		F9C200ED2C0E011600CB6078 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F9C200F62C0EE25300CB6078 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		F9C200FA2C10975000CB6078 /* Map, Filter, Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map, Filter, Reduce.swift"; sourceTree = "<group>"; };
+		F9D5C4982C12EF740064028D /* 최빈값구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최빈값구하기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		F9C200EC2C0E011600CB6078 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F9D5C4972C12EF600064028D /* Programmers */,
 				F9C200F42C0E014E00CB6078 /* Grammars */,
 			);
 			path = AlgorithmSwift;
@@ -72,6 +74,14 @@
 				F9C200FA2C10975000CB6078 /* Map, Filter, Reduce.swift */,
 			);
 			path = Grammars;
+			sourceTree = "<group>";
+		};
+		F9D5C4972C12EF600064028D /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5C4982C12EF740064028D /* 최빈값구하기.swift */,
+			);
+			path = Programmers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
