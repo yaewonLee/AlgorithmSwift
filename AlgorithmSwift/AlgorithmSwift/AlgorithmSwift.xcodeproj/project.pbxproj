@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F98C65662C22D76A004E2F9D /* 해시_의상_42578.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해시_의상_42578.swift"; sourceTree = "<group>"; };
 		F9C200EA2C0E011600CB6078 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C200ED2C0E011600CB6078 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F9C200F62C0EE25300CB6078 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
@@ -41,6 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F98C65632C21AA4C004E2F9D /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
 		F9C200E12C0E011600CB6078 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +68,8 @@
 		F9C200EC2C0E011600CB6078 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F9C200ED2C0E011600CB6078 /* main.swift */,
+				F98C65632C21AA4C004E2F9D /* BOJ */,
 				F9D5C4972C12EF600064028D /* Programmers */,
 				F9C200F42C0E014E00CB6078 /* Grammars */,
 			);
@@ -69,7 +79,6 @@
 		F9C200F42C0E014E00CB6078 /* Grammars */ = {
 			isa = PBXGroup;
 			children = (
-				F9C200ED2C0E011600CB6078 /* main.swift */,
 				F9C200F62C0EE25300CB6078 /* Closure.swift */,
 				F9C200FA2C10975000CB6078 /* Map, Filter, Reduce.swift */,
 			);
@@ -80,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				F9D5C4982C12EF740064028D /* 최빈값구하기.swift */,
+				F98C65662C22D76A004E2F9D /* 해시_의상_42578.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
