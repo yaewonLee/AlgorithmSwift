@@ -5,3 +5,5 @@
 * grammar - Swift 문법 정리
 * boj - 백준 문제 풀이
 * programmers - 프로그래머스 문제 풀이
+* algorithm - 알고리즘 구현
+* chore - 위를 제외한 나머지
